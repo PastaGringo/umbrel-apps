@@ -1,0 +1,22 @@
+manifestVersion: 1
+id: arch-qbittorrentvpn
+category: P2P
+name: qBittorentVPN
+version: "4.4.5-1-01"
+tagline: Download torrents with qBittorrent and AirVPN
+description: >-
+  qBittorrentVPN will let you downloads your torrents hidden behind AirVPN.
+
+  It's time to appreciate the "fullness" of your node.
+releaseNotes: >-
+  Docker build script for Arch Linux base with qBittorrent, Privoxy and OpenVPN 
+developer: Binhex (packaged by PastaGringo)
+website: https://github.com/binhex/arch-qbittorrentvpn
+dependencies:
+repo: https://github.com/binhex/arch-qbittorrentvpn
+support: https://forums.unraid.net/topic/75539-support-binhex-qbittorrentvpn/
+port: 8080
+gallery:
+path: ""
+defaultUsername: ""
+defaultPassword: ""
