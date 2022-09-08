@@ -1,6 +1,6 @@
 manifestVersion: 1
-id: arch-qbittorrentvpn
-category: P2P
+id: qbittorrentvpn
+category: NETWORKING
 name: qBittorentVPN
 version: "4.4.5-1-01"
 tagline: Download torrents with qBittorrent and AirVPN
@@ -17,6 +17,7 @@ repo: https://github.com/binhex/arch-qbittorrentvpn
 support: https://forums.unraid.net/topic/75539-support-binhex-qbittorrentvpn/
 port: 8080
 gallery:
+  - 1.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
