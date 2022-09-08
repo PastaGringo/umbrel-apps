@@ -6,10 +6,10 @@ services:
       APP_HOST: $APP_QBITTORRENT_IP
       APP_PORT: $APP_QBITTORRENT_UI_PORT
   
-  web:
+  qbittorrentvpn:
     image: pastagringo/arch-qbittorrentvpn
     restart: on-failure
-    stop_grace_period: 1m
+    #stop_grace_period: 1m
     #ports:
       # Replace <port> with the port that your app's web server
       # is listening inside the Docker container. If you need to
