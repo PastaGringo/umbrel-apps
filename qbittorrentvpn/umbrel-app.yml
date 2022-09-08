@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: qbittorrentvpn
-category: NETWORKING
-name: qBittorentVPN
+category: Networking
+name: qBittorrentVPN
 version: "4.4.5-1-01"
 tagline: Download torrents with qBittorrent and AirVPN
 description: >-
