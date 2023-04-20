@@ -1,0 +1,41 @@
+manifestVersion: 1
+id: lndboss
+category: Lightning Node Management
+name: LndBoss
+version: "2.17.3"
+tagline: A GUI for BalanceOfSatoshis
+description: LndBoss is a GUI for BalanceOfSatoshis.
+  It is a tool that makes it easy to run your favorite
+  bos commands and helps manage your lightning node.
+  You can schedule jobs to automatically rebalance channels,
+  auto update fees based on policies, open balanced/group channels with other nodes,
+  integration with amboss to post updates and much more.
+developer: Nitesh Balusu
+website: https://github.com/niteshbalusu11
+dependencies:
+  - lightning
+repo: https://github.com/niteshbalusu11/lndboss
+support: https://t.me/lndboss
+port: 8055
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+releaseNotes: >
+  - 2.17.3 (2023-02-23)
+    Fixed a bug where old config is being used for auto fees updates.
+
+  - 2.17.1 (2023-02-14)
+    Fixed condition for auto-fees when outbound/capacity ratio is zero.
+
+  - 2.17.0 (2023-01-31)
+    Added avoid-high-fee-routes to probe command.
+    Added avoid high-fee-routes to pay command.
+    Added avoid high-fee-routes to send command.
+    Added support for calling acceptsChannelOpen, connectPeer, findKey and getNetwork to call command.
+
+submitter: Nitesh Balusu
+submission: https://github.com/getumbrel/umbrel-apps/pull/65
