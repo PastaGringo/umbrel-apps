@@ -1,0 +1,26 @@
+{
+  "name": "Portainer",
+  "description": "Gestionnaire de conteneurs Docker basé sur une interface utilisateur Web",
+  "version": "1.0.0",
+  "icon": "https://raw.githubusercontent.com/portainer/portainer-docs/master/docs/images/logos/png/portainer/icon.png",
+  "slug": "portainer",
+  "repository": "https://github.com/portainer/portainer",
+  "website": "https://www.portainer.io/",
+  "developer": "Portainer.io",
+  "developer_website": "https://www.portainer.io/",
+  "config": {
+    "required": {
+      "ipv4": {
+        "name": "APP_PORTAINER_IP",
+        "label": "Portainer IP",
+        "value": "10.21.21.5"
+      },
+      "port": {
+        "name": "APP_PORTAINER_PORT",
+        "label": "Portainer Port",
+        "value": "9000"
+      }
+    },
+    "optional": {}
+  }
+}

@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+  portainer:
+    image: portainer/portainer-ce:latest
+    restart: always
+    networks:
+      default:
+        ipv4_address: $APP_PORTAINER_IP
+    ports:
+      - "$APP_PORTAINER_PORT:9000"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+      - "portainer_data:/data"
+
+volumes:
+  portainer_data:
+
+networks:
+  default:
+    external: true
+    name: $NETWORK
